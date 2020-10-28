@@ -4,6 +4,7 @@ export const SCENES = ["day", "rain"];
 export const RAIN_CHANCE = 0.3;
 export const DAY_LENGTH = 60;
 export const NIGHT_LENGTH = 3;
+
 export const getNextHungerTime = (clock) =>
   Math.floor(Math.random() * 3) + 5 + clock;
 export const getNextDieTime = (clock) =>
